@@ -1,6 +1,6 @@
 type SHA_KT = 1518500249 | 1859775393 | -1894007588 | -899497514;
 
-export function SHA1(input: string) {
+function SHA1(input: string) {
   const hexcase = 0;
   const chrsz = 8;
 
